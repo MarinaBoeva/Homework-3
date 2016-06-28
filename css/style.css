@@ -97,6 +97,7 @@ width: 144px;
 }
 .footer li a{
   text-decoration: none;
+  color:black;
 }
 .footer li a:hover {
   text-decoration:underline;
