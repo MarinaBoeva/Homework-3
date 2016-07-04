@@ -28,10 +28,13 @@ padding: 12px;
 display: inline-block;
 font-size: 14.67px;
 width: 144px;
+border-left: 1px solid transparent;
+border-right:1px solid transparent;
 }
 .menu li a,a:hover{
   color: white;
   text-decoration: none;
+  display: block;
 }
 
 .menu li:hover {
@@ -49,17 +52,21 @@ border-right:1px solid #CDC9C9;
 }
 .leftmenu ul {
   list-style: none;
+  border-bottom: 0.5px solid #EEE9E9;
 }
 .leftmenu li {
   padding:11px 11px 11px 11px;
-    border: 0.5px solid #EEE9E9;
+  border: 0.5px solid #EEE9E9;
+  border-bottom: 0px;
 }
 .leftmenu li:hover {
   background-color:#f9f9f9;
+  text-indent: 20px;
 }
 .leftmenu a,a:hover,a:visited,a:active {
   color: black;
   text-decoration:none;
+  display: block;
 }
 .content {
   float:left;
