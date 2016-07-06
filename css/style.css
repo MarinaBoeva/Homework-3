@@ -24,14 +24,17 @@ img {
  float: left;
 }
 .menu li {
-padding: 12px;
+text-align: center;
 display: inline-block;
 font-size: 14.67px;
 width: 144px;
+height: 40px;
 border-left: 1px solid transparent;
 border-right:1px solid transparent;
 }
 .menu li a,a:hover{
+  width: 144px;
+  height: 40px;
   color: white;
   text-decoration: none;
   display: block;
@@ -55,15 +58,21 @@ border-right:1px solid #CDC9C9;
   border-bottom: 0.5px solid #EEE9E9;
 }
 .leftmenu li {
-  padding:11px 11px 11px 11px;
+  text-indent: 5px;
+  width: 240px;
+  height: 40px;
   border: 0.5px solid #EEE9E9;
   border-bottom: 0px;
 }
 .leftmenu li:hover {
+  width: 240px;
+  height: 40px;
   background-color:#f9f9f9;
-  text-indent: 20px;
+  text-indent: 30px;
 }
 .leftmenu a,a:hover,a:visited,a:active {
+  width: 240px;
+  height: 40px;
   color: black;
   text-decoration:none;
   display: block;
