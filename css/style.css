@@ -29,6 +29,7 @@ display: inline-block;
 font-size: 14.67px;
 width: 144px;
 height: 40px;
+line-height: 40px;
 border-left: 1px solid transparent;
 border-right:1px solid transparent;
 }
